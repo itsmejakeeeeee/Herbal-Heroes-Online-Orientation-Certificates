@@ -299,9 +299,11 @@
     background: var(--green-dark);
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 30px 20px;
     font-size: 0.95em;
     margin-top: 40px;
+    line-height: 1.6;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
   }
 
   /* MODAL */
@@ -377,6 +379,28 @@
     .landing h1 { font-size: 2em; }
     .btn { font-size: 1em; padding: 12px 28px; }
   }
+
+  /* Responsive Footer Adjustments */
+@media (max-width: 992px) {
+  footer {
+    font-size: 0.9em;
+    padding: 25px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 0.85em;
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.8em;
+    padding: 18px 10px;
+  }
+}
 </style>
 </head>
 <body>
